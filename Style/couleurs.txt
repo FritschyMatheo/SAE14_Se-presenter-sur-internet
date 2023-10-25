@@ -1,3 +1,5 @@
-Couleur texte   #444444
-Couleur bg      #6C873A
-Liens hover     #75b657
+Couleur texte   #464D4D     Gris foncé
+Couleur bg      #A2BC7D     Vert foncé
+Liens hover     #BED69D     Vert clair
+Contraste       #FF7575     Rouge
+Texte 2         #F8F096     Jaune

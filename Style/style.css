@@ -16,7 +16,7 @@ main{
 }
 
 header.grandtitre{
-    background-color: #6C873A;
+    background-color: #A2BC7D;
     color: white;
     text-align: center;
     padding: 10px;
@@ -26,7 +26,7 @@ header.grandtitre h1{
 }
 
 nav.nav{
-    background-color: #444444;
+    background-color: #464D4D;
     padding: 5px;
     display: flex;
     justify-content: space-around;
@@ -37,11 +37,11 @@ nav.nav a{
 }
 
 nav.nav a:hover{
-    color: #75b657;
+    color: #BED69D;
 }
 
 footer.fin{
-    background-color: #444444;
+    background-color: #464D4D;
     padding: 5px;
     display: flex;
     justify-content: space-between;

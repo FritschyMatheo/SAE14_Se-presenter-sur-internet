@@ -1,0 +1,53 @@
+/*------------Squelette------------*/
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    width: 90%;
+    margin: 0px auto;
+    border: dashed;
+}
+
+header.grandtitre{
+    background-color: #6C873A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+header.grandtitre h1{
+    margin: 0px;
+}
+
+nav.nav{
+    background-color: #444444;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.nav a{
+    color: white;
+}
+
+nav.nav a:hover{
+    color: #75b657;
+}
+
+footer.fin{
+    background-color: #444444;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+footer.fin h4{
+    margin: 0px;
+}

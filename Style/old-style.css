@@ -1,0 +1,116 @@
+/*------------Tout------------*/
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    width: 90%;
+    margin: 0px auto;
+    border: solid 2px;
+    display: flex;
+}
+
+header.titre{
+    border: 1px solid;
+    background-color: #97F0BC;
+    text-align: center;
+    padding: 5px;
+}
+
+nav#liens{
+    border: 1px solid;
+    background-color: #81959e;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    border: solid #ffffff;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+nav a:hover{
+    color: #97F0BC;
+    border: solid #97F0BC;
+}
+
+nav a:visited{
+    border: solid #97F0BC;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+footer#fin{
+    border: 1px solid;
+    background-color: #81959e;
+    padding: 8px;
+    text-align: end;
+}
+/*------------Page Professionnelle------------*/
+
+
+/*------------Page Callisthenie------------*/
+section#historique{
+    border: 1px solid;
+}
+
+section#moi{
+    border: 1px solid;
+}
+
+section#english{
+    border: 1px solid;
+}
+
+section.gauche{
+    width: calc(40% / 0.9);
+   
+}
+
+section.gauche article{
+    background-color: #97F09E;
+    color: white;
+}
+
+section.droite{
+    border: 1px solid;
+    padding: 5px;
+    width: calc(60%  / 0.9)
+}
+
+section.categories h2{
+    text-align: center;  
+}
+
+section.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article.articles{
+    color: #32eb41;
+    padding: 5px;
+    margin: 5px;
+    width: calc(50% - 10px);
+}
+
+article.articles header{
+    text-indent: 10%;
+    text-decoration: underline;
+}
+
+h4{
+    margin: 0px;
+}

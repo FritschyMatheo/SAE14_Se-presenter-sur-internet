@@ -12,6 +12,7 @@ body{
 main{
     width: 90%;
     margin: 0px auto;
+    margin-block: 0px auto;
     border: dashed;
 }
 
@@ -47,9 +48,9 @@ footer.fin{
     justify-content: space-between;
     align-items: center;
     color: white;
-}
-footer.fin h4{
-    margin: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 h2{
@@ -61,7 +62,6 @@ h2{
 
 article{
     margin: 10px;
-    width: calc(60% - 20px);
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -78,6 +78,20 @@ article footer{
     align-self: flex-end;
 }
 
+/*------------Flexbox Accueil------------*/
+
+section.accueil{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+article.accueil{
+    width: 50%;
+}
+
+h2.accueil{
+    text-align: center;
+}
 
 /*------------Media Queries------------*/
 

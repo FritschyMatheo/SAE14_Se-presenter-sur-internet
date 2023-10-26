@@ -1,5 +1,5 @@
-Couleur texte   #464D4D     Gris foncé
-Couleur bg      #A2BC7D     Vert foncé
+Bg nav          #464D4D     Gris foncé
+Couleur bg      #879C6B     Vert foncé
 Liens hover     #BED69D     Vert clair
 Contraste       #FF7575     Rouge
 Texte 2         #F8F096     Jaune

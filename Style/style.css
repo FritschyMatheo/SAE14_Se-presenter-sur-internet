@@ -16,7 +16,7 @@ main{
 }
 
 header.grandtitre{
-    background-color: #A2BC7D;
+    background-color: #879C6B;
     color: white;
     text-align: center;
     padding: 10px;
@@ -62,7 +62,22 @@ h2{
 article{
     margin: 10px;
     width: calc(60% - 20px);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #879C6B ;
+    color: white;
+    border-radius: 18px;
 }
+article h2,h3,h4{
+    align-self: flex-start;
+    margin: 4px;
+}
+article footer{
+    align-self: flex-end;
+}
+
 
 /*------------Media Queries------------*/
 

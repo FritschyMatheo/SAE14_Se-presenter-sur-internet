@@ -14,6 +14,7 @@ main{
     margin: 0px auto;
     margin-block: 0px auto;
     border: dashed;
+    padding: 5px;
 }
 
 header.grandtitre{
@@ -48,9 +49,6 @@ footer.fin{
     justify-content: space-between;
     align-items: center;
     color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 h2{
@@ -58,6 +56,17 @@ h2{
     padding-block: 20px;
 }
 
+footer.retouraccueil{
+    text-align: end;
+    margin-right: 2.5%;
+}
+footer.retouraccueil a{
+    background-color: #464D4D;
+    color: white;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 16px;
+}
 /*------------articles------------*/
 
 article{

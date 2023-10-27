@@ -69,6 +69,24 @@ footer.retouraccueil a{
     padding-inline: 10px;
     border-radius: 16px;
 }
+
+footer.allerpage{
+    margin: 5px;
+}
+
+footer.allerpage a{
+    color: #464D4D;
+    text-decoration: none;
+    background-color: white;
+    padding: 6px;
+    padding-inline: 8px;
+    border-radius: 18px;
+}
+footer.allerpage a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: #464D4D;
+}
 /*------------articles------------*/
 
 article{

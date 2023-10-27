@@ -36,10 +36,12 @@ nav.nav{
 
 nav.nav a{
     color: white;
+    text-decoration: none;
 }
 
 nav.nav a:hover{
     color: #F8F096;
+    text-decoration: underline;
 }
 
 footer.fin{

@@ -91,16 +91,30 @@ article footer{
 
 section.accueil{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-article.accueil{
-    width: 50%;
+section.accueil article{
+    width: calc(50% - 40px);
 }
 
 h2.accueil{
     text-align: center;
 }
+
+/*------------Flexbox Contact------------*/
+
+section.contact{
+    display: flex;
+    flex-flow: rerow wrap;
+    justify-content: space-around;
+}
+
+section.contact{
+    width: calc(50% - 40px);
+}
+
 
 /*------------Media Queries------------*/
 

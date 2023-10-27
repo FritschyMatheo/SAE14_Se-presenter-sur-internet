@@ -117,6 +117,14 @@ section#droite{
     display: flex;
 }
 */
+section#droite section#articles-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+section#droite section#articles-container article.contenu{
+    width: calc(50% - 40px);
+}
 
 /*------------Flexbox Contact------------*/
 

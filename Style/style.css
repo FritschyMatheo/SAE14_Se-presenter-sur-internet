@@ -107,14 +107,18 @@ h2.accueil{
 
 section.contact{
     display: flex;
-    flex-flow: rerow wrap;
     justify-content: space-around;
 }
 
-section.contact{
+section.contact article{
     width: calc(50% - 40px);
 }
-
+section.contact article img{
+    margin: 10px auto;
+}
+section.contact article h3{
+    margin: 0px auto;
+}
 
 /*------------Media Queries------------*/
 

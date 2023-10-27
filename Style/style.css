@@ -39,7 +39,7 @@ nav.nav a{
 }
 
 nav.nav a:hover{
-    color: #BED69D;
+    color: #F8F096;
 }
 
 footer.fin{
@@ -102,6 +102,21 @@ section.accueil article{
 h2.accueil{
     text-align: center;
 }
+
+/*------------Flexbox Contact------------*/
+
+section#gauche h3{
+    margin: 0px auto;
+}
+section#gauche article:hover{
+    background-color: #464D4D;
+    color: #F8F096;
+}
+/*
+section#droite{
+    display: flex;
+}
+*/
 
 /*------------Flexbox Contact------------*/
 

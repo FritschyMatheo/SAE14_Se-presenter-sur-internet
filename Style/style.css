@@ -125,6 +125,15 @@ h2.accueil{
 
 /*------------Flexbox Callisthenie------------*/
 
+div.callisthenie{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+section#gauche{
+    width: 35%;
+}
 section#gauche h3{
     margin: 0px auto;
 }
@@ -132,11 +141,10 @@ section#gauche article:hover{
     background-color: #464D4D;
     color: #F8F096;
 }
-/*
+
 section#droite{
-    display: flex;
+    width: 65%;
 }
-*/
 section#droite section#articles-container{
     display: flex;
     flex-flow: row wrap;

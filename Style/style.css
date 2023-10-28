@@ -123,7 +123,7 @@ h2.accueil{
     text-align: center;
 }
 
-/*------------Flexbox Contact------------*/
+/*------------Flexbox Callisthenie------------*/
 
 section#gauche h3{
     margin: 0px auto;
@@ -144,6 +144,9 @@ section#droite section#articles-container{
 }
 section#droite section#articles-container article.contenu{
     width: calc(50% - 40px);
+}
+section#droite h2{
+    text-align: center;
 }
 
 /*------------Flexbox Contact------------*/

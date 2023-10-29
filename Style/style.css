@@ -131,9 +131,9 @@ div.callisthenie{
     align-items: center;
 }
 
-section#gauche{
+/*section#gauche{
     width: 35%;
-}
+}*/
 section#gauche h3{
     margin: 0px auto;
 }
@@ -142,9 +142,9 @@ section#gauche article:hover{
     color: #F8F096;
 }
 
-section#droite{
+/*section#droite{
     width: 65%;
-}
+}*/
 section#droite section#articles-container{
     display: flex;
     flex-flow: row wrap;

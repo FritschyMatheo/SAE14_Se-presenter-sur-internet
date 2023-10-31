@@ -122,22 +122,13 @@ h2.accueil{
     text-align: center;
 }
 
-/*------------Flexbox Callisthenie------------*/
+/*------------CSS Callisthenie------------*/
 
 /*div.callisthenie{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
 }*/
-
-.grandarticle h3{
-    margin: 0px auto;
-}
-article.grandarticle:hover{
-    background-color: #464D4D;
-    color: #F8F096;
-}
-
 
 section.milieu section#articles-container{
     display: flex;
@@ -149,6 +140,31 @@ section.milieu section#articles-container article.contenu{
 }
 section.milieu h2,section.milieu h4{
     text-align: center;
+    margin-top: 0px;
+}
+
+article.grandarticle p{
+    text-indent: 5%;
+    line-height: 25px;
+}
+
+article.grandarticle{
+    color: #464D4D;
+    border-radius: 0%;
+    background: white;
+}
+/*article.grandarticle:hover{
+    background-color: rgba(70, 77, 77, 0.842);
+    color: white;
+}*/
+article.grandarticle a{
+    color: #464D4D;
+}
+article.grandarticle a:hover{
+    font-weight: bold;
+}
+article.grandarticle h3{
+    margin: 15px auto;
 }
 
 /*------------Flexbox Contact------------*/

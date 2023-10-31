@@ -10,7 +10,6 @@ body{
 }
 
 main{
-    width: 90%;
     margin: 0px auto;
     margin-block: 0px auto;
     border: dashed;
@@ -125,35 +124,30 @@ h2.accueil{
 
 /*------------Flexbox Callisthenie------------*/
 
-div.callisthenie{
+/*div.callisthenie{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-}
-
-/*section#gauche{
-    width: 35%;
 }*/
-section#gauche h3{
+
+.grandarticle h3{
     margin: 0px auto;
 }
-section#gauche article:hover{
+article.grandarticle:hover{
     background-color: #464D4D;
     color: #F8F096;
 }
 
-/*section#droite{
-    width: 65%;
-}*/
-section#droite section#articles-container{
+
+section.milieu section#articles-container{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
-section#droite section#articles-container article.contenu{
-    width: calc(50% - 40px);
+section.milieu section#articles-container article.contenu{
+    width: calc(100% / 3);
 }
-section#droite h2{
+section.milieu h2,section.milieu h4{
     text-align: center;
 }
 

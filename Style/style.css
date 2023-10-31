@@ -12,7 +12,7 @@ body{
 main{
     margin: 0px auto;
     margin-block: 0px auto;
-    border: dashed;
+    /*border: dashed;*/
     padding: 5px;
 }
 
@@ -31,6 +31,7 @@ nav.nav{
     padding: 5px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 nav.nav a{
@@ -86,6 +87,15 @@ footer.allerpage a:hover{
     text-decoration: underline;
     background-color: #464D4D;
 }
+
+p{
+    text-indent: 5%;
+    line-height: 25px;
+}
+
+h3{
+    margin: 15px auto;
+}
 /*------------articles------------*/
 
 article{
@@ -140,12 +150,7 @@ section.milieu section#articles-container article.contenu{
 }
 section.milieu h2,section.milieu h4{
     text-align: center;
-    margin-top: 0px;
-}
-
-article.grandarticle p{
-    text-indent: 5%;
-    line-height: 25px;
+    margin-top: 10px;
 }
 
 article.grandarticle{
@@ -163,8 +168,14 @@ article.grandarticle a{
 article.grandarticle a:hover{
     font-weight: bold;
 }
-article.grandarticle h3{
+h3{
     margin: 15px auto;
+}
+
+.milieu footer.allerpage{
+    align-self: center;
+    margin: 15px;
+    font-weight: bold;
 }
 
 /*------------Flexbox Contact------------*/
@@ -179,9 +190,6 @@ section.contact article{
 }
 section.contact article img{
     margin: 10px auto;
-}
-section.contact article h3{
-    margin: 0px auto;
 }
 
 /*------------Media Queries------------*/

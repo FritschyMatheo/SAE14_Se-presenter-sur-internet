@@ -178,6 +178,30 @@ h3{
     font-weight: bold;
 }
 
+/*------------Background catégories------------*/
+article.contenu{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-x: center;
+}
+article#statique{
+    background-image: url(../Images/Illustrations/Statique/Valentin-planche-poings.png);
+    background-position-y: 50%;
+}
+article#dynamique{
+    background-image: url(../);
+}
+article#freestyle{
+    background-image: url(../);
+}
+article#setandrep{
+    background-image: url(../);
+}
+article#streetlifting{
+    background-image: url(../);
+}
+
 /*------------Flexbox Contact------------*/
 
 section.contact{

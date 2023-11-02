@@ -108,7 +108,7 @@ article{
     color: white;
     border-radius: 18px;
 }
-article h2,h3,h4{
+h2,h3,h4{
     align-self: flex-start;
     margin: 4px;
 }
@@ -179,6 +179,11 @@ h3{
 }
 
 /*------------Background catégories------------*/
+article#statique h4{
+    
+    text-shadow: 1px 0px 4px rgb(0, 0, 0);
+}
+
 article.contenu{
     background-size: 100%;
     background-repeat: no-repeat;
@@ -202,6 +207,27 @@ article#streetlifting{
     background-image: url(../);
 }
 
+/*------------Page statique------------*/
+
+section.illustrations{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 20px;
+}
+section.illustrations img{
+    width: 100%;
+}
+section.illustrations div{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    background-color: #464D4D;
+    color: white;
+}
+section.illustrations div p{
+    margin: 10px;
+}
 /*------------Flexbox Contact------------*/
 
 section.contact{

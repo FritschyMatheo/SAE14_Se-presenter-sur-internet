@@ -219,14 +219,16 @@ section.illustrations{
 section.illustrations img{
     width: 100%;
 }
-section.illustrations div{
+section.illustrations figure{
     width: 25%;
-    display: inline-block;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     text-align: center;
     background-color: #464D4D;
     color: white;
 }
-section.illustrations div p{
+section.illustrations figure figcaption{
     margin-block: 5px;
 }
 /*------------Flexbox Contact------------*/

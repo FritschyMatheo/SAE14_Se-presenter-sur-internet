@@ -157,6 +157,7 @@ article.grandarticle{
     color: #464D4D;
     border-radius: 0%;
     background: white;
+    margin-block: 30px;
 }
 /*article.grandarticle:hover{
     background-color: rgba(70, 77, 77, 0.842);
@@ -226,7 +227,7 @@ section.illustrations div{
     color: white;
 }
 section.illustrations div p{
-    margin: 10px;
+    margin-block: 5px;
 }
 /*------------Flexbox Contact------------*/
 
@@ -240,6 +241,7 @@ section.contact article{
 }
 section.contact article img{
     margin: 10px auto;
+    max-width: 100%
 }
 
 /*------------Media Queries------------*/

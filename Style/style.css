@@ -153,20 +153,16 @@ section.milieu h2,section.milieu h4{
     margin-top: 10px;
 }
 
-article.grandarticle{
+.grandarticle{
     color: #464D4D;
     border-radius: 0%;
     background: white;
     margin-block: 30px;
 }
-/*article.grandarticle:hover{
-    background-color: rgba(70, 77, 77, 0.842);
-    color: white;
-}*/
-article.grandarticle a{
+.grandarticle a{
     color: #464D4D;
 }
-article.grandarticle a:hover{
+.grandarticle a:hover{
     font-weight: bold;
 }
 h3{
@@ -215,21 +211,35 @@ section.illustrations{
     flex-flow: row nowrap;
     justify-content: center;
     gap: 20px;
+    border: solid #ffea00;
 }
 section.illustrations img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 section.illustrations figure{
-    width: 25%;
+    width: calc(25% - 60px);
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: end;
     text-align: center;
-    background-color: #464D4D;
-    color: white;
+    border: solid #FF7575;
 }
+/*section.illustrations figure:hover{
+    border: solid #FF7575;
+}*/
 section.illustrations figure figcaption{
     margin-block: 5px;
+    color: white;
+    background-color: #464D4D;
+    padding-block: 5px;
+    margin: 0px;
+}
+.grandarticle ul{
+    line-height: 25px;
+}
+.grandarticle ul#figuresbase{
+    margin: 0px;
 }
 /*------------Flexbox Contact------------*/
 
@@ -243,7 +253,6 @@ section.contact article{
 }
 section.contact article img{
     margin: 10px auto;
-    max-width: 100%
 }
 
 /*------------Media Queries------------*/

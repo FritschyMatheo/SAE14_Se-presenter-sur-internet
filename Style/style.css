@@ -182,9 +182,8 @@ article#statique h4{
 }
 
 article.contenu{
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: local;
     background-position-x: center;
 }
 article#statique{

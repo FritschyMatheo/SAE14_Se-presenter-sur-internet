@@ -145,9 +145,9 @@ section.milieu section#articles-container{
     flex-flow: row wrap;
     justify-content: center;
 }
-section.milieu section#articles-container article.contenu{
+/*section.milieu section#articles-container article.contenu{
     width: calc(100% / 3);
-}
+}*/
 section.milieu h2,section.milieu h4{
     text-align: center;
     margin-top: 10px;
@@ -176,8 +176,7 @@ h3{
 }
 
 /*------------Background catégories------------*/
-article#statique h4{
-    
+article#statique h4{ 
     text-shadow: 1px 0px 4px rgb(0, 0, 0);
 }
 
@@ -185,10 +184,11 @@ article.contenu{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
+    width: 265px;
 }
 article#statique{
     background-image: url(../Images/Illustrations/Statique/Valentin-planche-poings.png);
-    background-position-y: 50%;
+    background-position-y: 65%;
 }
 article#dynamique{
     background-image: url(../);
@@ -256,13 +256,28 @@ section.contact article img{
 
 /*------------Media Queries------------*/
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1919px){
     main{
         width: 70%;
+    }
+    article.contenu{
+        width: 400px;
+        height: 150px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1918px){
+    main{
+        width: 70%;
+    }
+    article.contenu{
+        width: 265px;
     }
 }
 @media screen and (min-width: 960px) and (max-width: 1199px){
     main{
         width: 90%;
+    }
+    article.contenu{
+        width: 265px;
     }
 }

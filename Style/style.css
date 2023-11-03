@@ -210,10 +210,7 @@ section.illustrations{
     flex-flow: row wrap;
     justify-content: center;
     gap: 10px;
-    border: solid #ffea00;
-}
-section.illustrations img{
-    width: auto;
+    /*border: solid #ffea00;*/
 }
 section.illustrations figure{
     width: 265px;
@@ -222,7 +219,9 @@ section.illustrations figure{
     justify-content: end;
     text-align: center;
     margin-inline: 0px;
-    border: solid #FF7575;
+    background-color: #464D4D;
+    color: #FF7575;
+    /*border: solid #FF7575;*/
 }
 /*section.illustrations figure:hover{
     border: solid #FF7575;

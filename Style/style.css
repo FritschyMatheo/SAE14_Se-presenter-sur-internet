@@ -207,21 +207,21 @@ article#streetlifting{
 
 section.illustrations{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     border: solid #ffea00;
 }
 section.illustrations img{
-    max-width: 100%;
-    height: auto;
+    width: auto;
 }
 section.illustrations figure{
-    width: calc(25% - 60px);
+    width: 265px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: end;
     text-align: center;
+    margin-inline: 0px;
     border: solid #FF7575;
 }
 /*section.illustrations figure:hover{

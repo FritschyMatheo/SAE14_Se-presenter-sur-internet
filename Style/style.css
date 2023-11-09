@@ -216,7 +216,7 @@ section.illustrations figure{
     flex-basis: 265px;
     display: flex;
     flex-flow: row wrap;
-    align-items: space;
+    align-items: flex-end;
     text-align: center;
     margin-inline: 0px;
     background-color: #464D4D;

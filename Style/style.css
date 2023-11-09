@@ -31,7 +31,6 @@ nav.nav{
     padding: 5px;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
 }
 
 nav.nav a{
@@ -42,6 +41,10 @@ nav.nav a{
 nav.nav a:hover{
     color: #F8F096;
     text-decoration: underline;
+}
+
+nav.nav#nav2{
+    background-color: rgb(163, 163, 163);
 }
 
 footer.fin{

@@ -1,4 +1,5 @@
 Bg nav          #464D4D     Gris foncé
+Bg nav 2        rgb(163, 163, 163)  Gris clair
 Couleur bg      #879C6B     Vert foncé
 Liens hover     #BED69D     Vert clair
 Contraste       #FF7575     Rouge

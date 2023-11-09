@@ -213,10 +213,10 @@ section.illustrations{
     /*border: solid #ffea00;*/
 }
 section.illustrations figure{
-    width: 265px;
+    flex-basis: 265px;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: end;
+    flex-flow: row wrap;
+    align-items: space;
     text-align: center;
     margin-inline: 0px;
     background-color: #464D4D;
@@ -226,12 +226,17 @@ section.illustrations figure{
 /*section.illustrations figure:hover{
     border: solid #FF7575;
 }*/
+section.illustrations figure img{
+    width: 100%;
+}
 section.illustrations figure figcaption{
-    margin-block: 5px;
+    flex-basis: 100%;
+    margin-block: 0px;
     color: white;
     background-color: #464D4D;
     padding-block: 5px;
     margin: 0px;
+    align-self: flex-end;
 }
 .grandarticle ul{
     line-height: 25px;

@@ -4,9 +4,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body{
+    height: 100%;
+}
+
 body{
     padding: 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 main{
@@ -14,6 +20,7 @@ main{
     margin-block: 0px auto;
     /*border: dashed;*/
     padding: 5px;
+    flex-grow: 1;
 }
 
 header.grandtitre{
@@ -50,6 +57,7 @@ nav.nav#nav2{
 footer.fin{
     background-color: #464D4D;
     padding: 5px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -38,6 +38,7 @@ nav.nav{
     padding: 5px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav.nav a{
@@ -108,6 +109,11 @@ h3{
     margin: 15px auto;
 }
 /*------------articles------------*/
+main#accueil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 article{
     margin: 10px;
@@ -140,7 +146,7 @@ section.accueil article{
 }
 
 h2.accueil{
-    text-align: center;
+    align-self: center;
 }
 
 /*------------CSS Callisthenie------------*/

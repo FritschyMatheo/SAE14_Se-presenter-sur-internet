@@ -92,7 +92,9 @@
         </p>
         <ul>
           <li>
-            <h4>Configuration et installation de répéteurs Wifi (ABC Réseau)</h4>
+            <h4>
+              Configuration et installation de répéteurs Wifi (ABC Réseau)
+            </h4>
             <p>
               Durant ce projet, mon maitre de stage et moi avons pris les
               mesures du réseau wifi d'un entrepôt en vu d'y installer un
@@ -125,16 +127,54 @@
             </p>
             <img
               src="../Images/Pro/plan-wifi2.png"
-              alt="plan-wifi1"
+              alt="plan-wifi2"
               width="50%"
             />
           </li>
           <li>
-            <h4>Installation de Windows automatisée et customisée (ABC Réseau)</h4>
-            <p></p>
+            <h4>
+              Installation de Windows automatisée et customisée (ABC Réseau)
+            </h4>
+            <p>
+              J'ai réalisé ce projet en quasi autonomie sur une durée de deux
+              semaines où j'effectuais d'autres tâches en même temps. Je vais
+              donc expliquer ici comment créer une clé USB d'installation de
+              Windows automatique avec un OS propre.<br />
+              Pour ce faire, j’ai donc eu besoin, premièrement de faire un ISO
+              de Windows propre, que j’ai modifié avec DISM++ qui est une
+              interface graphique de DISM, donc un outil qui permet de gérer des
+              images de Windows. Une fois l’ISO prêt, il fallait automatiser
+              l’installation, en ajoutant un fichier XML que l’on peut générer
+              sur certains sites comme «windowsafg» pour ma part. Le fichier que
+              l’on obtient devait être placé à la racine de la clé bootable,
+              réalisée avec Rufus.<br />
+              J'ai vu que l'on pouvait installer automatiquement des logiciels
+              directement après l’installation du système d’exploitation. Il
+              faut donc avoir des fichiers exécutables des logiciels et les
+              appeler dans un script Batch qui a lui-même été lancé dans le
+              fichier XML que l’on a inséré à la racine. Avec la ligne suivante:
+            </p>
+            <img
+              src="../Images/Pro/appel-commande.png"
+              alt="appel-commande"
+              width="100%"
+            />
+            <p>Et voici le script Batch appelé:</p>
+            <img
+              src="../Images/Pro/script-batch.png"
+              alt="script"
+              width="100%"
+            />
+            <p>
+              Ainsi, lorsque l'on lance l'installation de Windows avec cette clé
+              bootable, le fichier réponse répond tout seul au questions de
+              l'installation et lance les installeurs des logiciels.
+            </p>
           </li>
           <li>
-            <h4>Cable management d'une partie d'un open space (Agence Cactus)</h4>
+            <h4>
+              Cable management d'une partie d'un open space (Agence Cactus)
+            </h4>
             <p></p>
           </li>
           <li>

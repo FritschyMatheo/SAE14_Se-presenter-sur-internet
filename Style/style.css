@@ -109,7 +109,7 @@ h3{
     margin: 15px auto;
 }
 /*------------articles------------*/
-main#accueil{
+main#centre{
     display: flex;
     flex-direction: column;
     justify-content: center;

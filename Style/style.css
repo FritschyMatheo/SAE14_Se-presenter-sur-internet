@@ -266,12 +266,14 @@ section.illustrations figure figcaption{
 section.contact{
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
+    
 }
-
-section.contact article{
+article.contact{
     width: calc(50% - 40px);
+    text-align: center;
 }
-section.contact article img{
+article.contact a img{
     margin: 10px auto;
 }
 

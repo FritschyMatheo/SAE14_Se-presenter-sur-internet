@@ -105,8 +105,16 @@ p{
     line-height: 25px;
 }
 
+li p{
+    text-indent: 0%;
+}
+
 h3{
     margin: 15px auto;
+}
+
+hr{
+
 }
 /*------------articles------------*/
 main#centre{
@@ -147,6 +155,13 @@ section.accueil article{
 
 h2.accueil{
     align-self: center;
+}
+
+/*------------CSS Partie Pro------------*/
+
+div#configuration{
+    border: solid #FF7575 1px;
+    padding: 10px;
 }
 
 /*------------CSS Callisthenie------------*/

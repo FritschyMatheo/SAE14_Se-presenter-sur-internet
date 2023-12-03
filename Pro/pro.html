@@ -71,11 +71,15 @@
             2023 :
             <ul>
               <li>Job d'été SAV Climatisations</li>
-              <li>Stage Cactus (1 mois)</li>
+              <li>Stage Agence Cactus (1 mois)</li>
               <li>Stage ABC Réseau (1 mois)</li>
             </ul>
           </li>
         </ul>
+      </article>
+      <hr />
+      <article class="grandarticle">
+        <h3>Mes projets de stage</h3>
         <p>
           J'ai donc pu acquérir par mal de connaissances durant ces différents
           stages et mes formations. J'ai pu apprendre à être rigoureux au
@@ -83,26 +87,61 @@
           technique, malgré que ce ne soit pas mon domaine, j'ai quelque
           connaissances dans le fonctionnement et le dépannage des
           climatisations. Durant mes stages, j'ai pu installer beaucoup de
-          postes Windows et quelques Linux. J'ai notemment eu quelques projets intéressants :
-          <ul>
-            <li>
-                <h4>Configuration et installation de répéteurs Wifi</h4>
-                <p></p>
-            </li>
-            <li>
-                <h4>Installation de Windows automatisée et customisée</h4>
-                <p></p>
-            </li>
-            <li>
-                <h4>Cable management d'une partie d'un open space</h4>
-                <p></p>
-            </li>
-            <li>
-                <h4>Configuration d'une GED</h4>
-                <p></p>
-            </li>
-          </ul>
+          postes Windows et quelques Linux. J'ai notemment eu quelques projets
+          intéressants :
         </p>
+        <ul>
+          <li>
+            <h4>Configuration et installation de répéteurs Wifi (ABC Réseau)</h4>
+            <p>
+              Durant ce projet, mon maitre de stage et moi avons pris les
+              mesures du réseau wifi d'un entrepôt en vu d'y installer un
+              répéteur. Voici un schéma des résultats obtenus :
+            </p>
+            <img
+              src="../Images/Pro/plan-wifi1.png"
+              alt="plan-wifi1"
+              width="50%"
+            />
+            <p>
+              Nous avons ensuite configuré un routeur "Mikrotik hAP ac²" pour
+              qu'il répete le réseau 2.4 et 5GHz de l'entreprise. Pour ce faire,
+              voici la configuration :
+            </p>
+            <div id="configuration">
+              <p>
+                DHCP Client sur le Bridge, désactiver le DHCP Server, aucune
+                modification nécessaire au niveau du pare feu, désactiver le
+                www, telnet ainsi que le ftp pour la sécurité du réseau.
+                Également désactiver l’interface eth2 du Bridge.
+              </p>
+            </div>
+            <p>
+              Avec cette configuration, en mettant le SSID et le mot de passe du
+              routeur cap AC déjà présent dans l’entreprise, il suffisait de
+              brancher le routeur en réseau et de l’alimenter pour qu’il se
+              connecte tout seul et relaie les signaux 2,4 et 5GHz. <br />
+              Voici le résultat après la mise en place du point d'accès :
+            </p>
+            <img
+              src="../Images/Pro/plan-wifi2.png"
+              alt="plan-wifi1"
+              width="50%"
+            />
+          </li>
+          <li>
+            <h4>Installation de Windows automatisée et customisée (ABC Réseau)</h4>
+            <p></p>
+          </li>
+          <li>
+            <h4>Cable management d'une partie d'un open space (Agence Cactus)</h4>
+            <p></p>
+          </li>
+          <li>
+            <h4>Configuration d'une GED (ABC Réseau)</h4>
+            <p></p>
+          </li>
+        </ul>
       </article>
       <footer class="retouraccueil">
         <a href="..\index.html">Retour accueil</a>

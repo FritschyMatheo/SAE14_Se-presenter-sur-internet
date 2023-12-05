@@ -100,11 +100,13 @@
               mesures du réseau wifi d'un entrepôt en vu d'y installer un
               répéteur. Voici un schéma des résultats obtenus :
             </p>
-            <img
-              src="../Images/Pro/plan-wifi1.png"
-              alt="plan-wifi1"
-              width="50%"
-            />
+            <div class="images-pro">
+              <img
+                src="../Images/Pro/plan-wifi1.png"
+                alt="plan-wifi1"
+                width="50%"
+              />
+            </div>
             <p>
               Nous avons ensuite configuré un routeur "Mikrotik hAP ac²" pour
               qu'il répete le réseau 2.4 et 5GHz de l'entreprise. Pour ce faire,
@@ -125,11 +127,13 @@
               connecte tout seul et relaie les signaux 2,4 et 5GHz. <br />
               Voici le résultat après la mise en place du point d'accès :
             </p>
-            <img
-              src="../Images/Pro/plan-wifi2.png"
-              alt="plan-wifi2"
-              width="50%"
-            />
+            <div class="images-pro">
+              <img
+                src="../Images/Pro/plan-wifi2.png"
+                alt="plan-wifi2"
+                width="50%"
+              />
+            </div>
           </li>
           <li>
             <h4>
@@ -154,17 +158,17 @@
               appeler dans un script Batch qui a lui-même été lancé dans le
               fichier XML que l’on a inséré à la racine. Avec la ligne suivante:
             </p>
-            <img
-              src="../Images/Pro/appel-commande.png"
-              alt="appel-commande"
-              width="100%"
-            />
-            <p>Et voici le script Batch appelé:</p>
-            <img
-              src="../Images/Pro/script-batch.png"
-              alt="script"
-              width="100%"
-            />
+            <div class="images-pro">
+              <img
+                src="../Images/Pro/appel-commande.png"
+                alt="appel-commande"
+              />
+              <p>Et voici le script Batch appelé:</p>
+              <img
+                src="../Images/Pro/script-batch.png"
+                alt="script"
+              />
+            </div>
             <p>
               Ainsi, lorsque l'on lance l'installation de Windows avec cette clé
               bootable, le fichier réponse répond tout seul au questions de
@@ -175,11 +179,54 @@
             <h4>
               Cable management d'une partie d'un open space (Agence Cactus)
             </h4>
-            <p></p>
+            <p>
+              Chez Cactus, j'ai pu réorganiser le plan des bureaux de l'open
+              space et aménager les câbles. Lorsque je suis arrivé, les câbles
+              n'étaient pas bien rangés, certains trainaient à terre et les
+              chaises roulaient dessus. J'ai donc eu pour mission de les ranger.
+              J'ai pu commander et poser moi-même des supports de câbles à fixer
+              sous le bureau ainsi que des attaches câbles.<br />
+              Voici les bureaux après mon installation :
+            </p>
+            <div class="images-pro">
+              <img src="../Images/Pro/cables-2.png" alt="bureaux"/>
+              <img src="../Images/Pro/cables-1.png" alt="bureaux2"/>
+            </div>
+            <p>
+              Les personnes travayants dans l'open space étaient contente du
+              travail que j'avais fait.
+            </p>
           </li>
           <li>
             <h4>Configuration d'une GED (ABC Réseau)</h4>
-            <p></p>
+            <p>
+              Pour mon dernier stage chez ABC Réseau, j'ai eu l'occasion de
+              configurerr une <strong>Gestion Electronique de Documents (GED)</strong> installée
+              dans un Docker le tout sur un serveur Proxmox. Le but était donc
+              de configurer un gestionnaire de document pour une entreprise
+              ayant différents commerciaux pour différentes régions. Chaque
+              commercial devant avoir accès uniquement aux documents de sa
+              région. Pour cela, l'entreprise avait prévu de travailler sur la
+              GED "Mayan EDMS".<br />
+              Pour répondre à la problématique, il fallait d’abord comprendre
+              comment fonctionne Mayan et trouver quelles fonctionnalités
+              pourraient permettre de faire ce que l’on veut. Nous nous sommes
+              d’abord penchés sur les types de documents, mais ceux ci sont tout
+              d’abord utilisés pour distinguer par exemple les factures des
+              plans. Ensuite, nous avons essayé de mettre des permissions au
+              niveau des index, mais bien que l’utilisateur ne voyait plus les
+              documents, il y avait toujours accès.<br />
+              Les fonctionnalités que j’ai finalement utilisées sont celles des
+              métadonnées pour distinguer les régions, des flux de travail pour
+              les permissions ainsi que les rôles, groupes et utilisateurs. Un
+              flux consiste à fixer pour un document un état au moyen de
+              transitions. A chaque états peuvent être associés des permissions
+              et les transitions peuvent être déclenchée par les métadonnées.
+            </p>
+            <div class="images-pro" id="MAYAN">
+              <img src="../Images/Pro/plan-mayan.png" alt="MAYAN-Plan"/>
+              <img src="../Images/Pro/schema-mayan.png" alt="MAYAN-Schema">
+            </div>
           </li>
         </ul>
       </article>

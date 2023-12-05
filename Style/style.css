@@ -163,6 +163,20 @@ div#configuration{
     border: solid #FF7575 1px;
     padding: 10px;
 }
+.images-pro{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.images-pro img{
+    width : 480px;
+    height: 100%;
+    margin: 10px;
+}
+#MAYAN img{
+    width : 720px;
+}
 
 /*------------CSS Callisthenie------------*/
 

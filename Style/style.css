@@ -313,7 +313,7 @@ article.contact a img{
     main{
         width: 70%;
     }
-    article.contenu{
+    article.contenu, .contact img{
         width: 400px;
         height: 150px;
     }
@@ -322,7 +322,7 @@ article.contact a img{
     main{
         width: 70%;
     }
-    article.contenu{
+    article.contenu, .contact img{
         width: 265px;
     }
 }
@@ -330,7 +330,7 @@ article.contact a img{
     main{
         width: 90%;
     }
-    article.contenu{
+    article.contenu, .contact img{
         width: 265px;
     }
 }

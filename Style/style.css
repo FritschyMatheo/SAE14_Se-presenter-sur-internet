@@ -42,7 +42,7 @@ nav.nav{
     
 }
 
-nav.nav a{
+a{
     color: white;
     text-decoration: none;
     text-align: center;
@@ -290,6 +290,13 @@ section.illustrations figure figcaption{
 }
 .grandarticle ul#figuresbase{
     margin: 0px;
+}
+
+#credits{
+    background-color: #FF7575;
+}
+#credits a:hover{
+    font-weight: bolder;
 }
 /*------------Flexbox Contact------------*/
 

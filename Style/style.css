@@ -39,11 +39,13 @@ nav.nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 nav.nav a{
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 nav.nav a:hover{
@@ -222,10 +224,9 @@ h3{
 }
 
 /*------------Background catégories------------*/
-article#statique h4{ 
+article.contenu h4{ 
     text-shadow: 1px 0px 4px rgb(0, 0, 0);
 }
-
 article.contenu{
     background-size: cover;
     background-repeat: no-repeat;
